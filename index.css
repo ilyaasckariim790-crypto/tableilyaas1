@@ -1,0 +1,54 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+     font-size: 130%;
+     box-sizing: border-box;
+     box-shadow: 1px 1px 15px red;
+}
+.caption{
+    text-shadow: 1px 1px 10px red;
+}
+td{
+    border: 1px solid black;
+     padding: 10px;
+     font-size: 130%;
+      
+
+}
+th{
+      border: 1px solid black;
+      padding: 10px;
+      background-color: rgb(6, 6, 63);
+      color: white;
+      font-weight: bolder;
+      font-family: 'Times New Roman', Times, serif;
+      
+     
+       
+}
+.friday{
+    text-align: center;
+    background-color: #a6cea6ed;
+}
+.thurday{
+    text-align: center;
+      background-color: #a6cea6ed;
+}
+
+td:nth-of-type(2){
+     color: RED;
+}
+
+th:hover{
+    background-color: white;
+    color: orangered;
+    transition: 3s;
+}
+tr:hover{
+    background-color: rgb(210, 215, 220);
+    transition: 3s;
+}
